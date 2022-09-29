@@ -18,13 +18,17 @@ import com.google.firebase.ktx.Firebase
 
 
 class Principal : AppCompatActivity() {
-
+    //Definicion del objeto para hacer la autenticacion
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityPrincipalBinding
 
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+       //se inicializa el objeto para manejar las vistas...
         binding = ActivityPrincipalBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -57,7 +61,7 @@ class Principal : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_logoff -> {
-                Firebase.auth.signOut()  //Desconectarse... de aqui
+                Firebase.auth.signOut()  //Desconectarse...
                 finish()
                 true
             } else -> super.onOptionsItemSelected(item)
@@ -70,4 +74,3 @@ class Principal : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 }
-
