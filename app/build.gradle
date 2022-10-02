@@ -61,6 +61,7 @@ dependencies {
     annotationProcessor'androidx.room:room-compiler-processing-testing:2.4.3'
    kapt "androidx.room:room-compiler-processing-testing:2.4.3"
     implementation'androidx.room:room-ktx:2.4.3'
-
+//para utilizar navegacion de fragmentos
+    implementation 'androidx.navigation:navigation-dynamic-features-fragment:2.5.2'
 
 }
