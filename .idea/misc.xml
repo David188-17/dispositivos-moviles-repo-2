@@ -10,7 +10,11 @@
         <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/activity_principal.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/app_bar_principal.xml" value="0.31145833333333334" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/content_principal.xml" value="0.36102564102564105" />
+        <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/fragment_add_lugar.xml" value="0.25" />
+        <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/fragment_lugar.xml" value="0.29375" />
+        <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documentos/Lugares/app/src/main/res/layout/nav_header_principal.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/menu/activity_main_drawer.xml" value="0.29375" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/menu/principal.xml" value="0.36102564102564105" />
         <entry key="..\:/Documentos/Lugares/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
