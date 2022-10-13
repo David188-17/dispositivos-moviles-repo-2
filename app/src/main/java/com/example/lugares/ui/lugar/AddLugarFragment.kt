@@ -17,6 +17,7 @@ class AddLugarFragment : Fragment() {
    //El objeto para interactuar con la tabla
    private lateinit var lugarViewModel:LugarViewModel
     private var _binding: FragmentAddLugarBinding? = null
+    //jjiojoijiojiojioj
 
 
     private val binding get() = _binding!!
